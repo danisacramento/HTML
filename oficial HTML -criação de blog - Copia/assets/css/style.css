@@ -1,0 +1,43 @@
+body{
+    background:#82ffa5 ;
+}
+
+.card-largura{
+    max-width: 18rem;
+}
+.imagem-carrossel1 {
+    object-fit: cover;
+    object-position: 0 0%;
+    height: 500px;
+}
+
+.imagem-carrossel2 {
+    object-fit: cover;
+    object-position: 0 %;
+    height: 500px;
+}
+
+h2{
+    color:#b32625;
+}
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+    color:#b32625;
+}
+
+.texto-cor-especial{
+    font-family: 'Pacifico', cursive;
+}
+.botao-cor-especial {
+    background-color:#b32625;
+    color: #a2b3a7;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+
+.borda-cor-especial {
+    border-color: #b32625;
+}
