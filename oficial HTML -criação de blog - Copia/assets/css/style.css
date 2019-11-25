@@ -41,3 +41,8 @@ h2{
 .borda-cor-especial {
     border-color: #b32625;
 }
+
+footer{
+    background-color: gray;
+    color: black
+}
