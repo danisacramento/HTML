@@ -1,18 +1,20 @@
 body{
    
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+99 */
 background: rgb(180,221,180); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(180,221,180,1) 0%, rgba(131,199,131,1) 17%, rgba(82,177,82,1) 33%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#52b152',GradientType=0 ); /* IE6-9 */
+background: -moz-linear-gradient(top,  rgba(180,221,180,1) 0%, rgba(131,199,131,1) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(180,221,180,1) 0%,rgba(131,199,131,1) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(180,221,180,1) 0%,rgba(131,199,131,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#83c783',GradientType=0 ); /* IE6-9 */
+
+color: black;
 }
-   
+
 
 .blog-header-logo {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 2.25rem;
-    
+ 
 }
 /*inserir linha embaixo do logo(título do blog)*/
     .blog-header {
@@ -23,9 +25,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     a {
         color: rgb(231, 30, 30);
+    
       
     }
 
+    .blog-pagination{
+        margin-bottom: 20px;
+        color: black;
+    }
     
 
 .nav-scroller {
@@ -37,9 +44,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
 .blog-footer {
    
-    color: #999;
+    color:white;
     text-align: center;
-    background-color: #f9f9f9;
+    
 }
 
 .social a[href*="linkedin.com"] {
@@ -54,14 +61,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     background-image: url(../image/youtube.png);
 }
 
+.social a[href*="danielleacsacramento@gmail.com"] {
+    background-image: url(../image/gmail.png);
+}
+
+
+
 footer .container {
     position: relative;
 }
 
 footer {
-    background-image: url(../image/fundo-rodape-verde.png);
+    background-image: url(../image/fundo-rodape-textura.png);
     clear: both;
     padding: 20px 0;
+   
 }
 
 .social {
@@ -83,3 +97,41 @@ footer {
     display: block;
     text-indent: -9999px;
 }
+
+#form-busca{
+    /*ajustar a imagem da lupa do campo de busca*/
+    margin-right: 10px;
+}
+
+#q{
+    /*ajustar o campo de busca*/
+    height: 32px;
+    padding-top: 10px;
+
+}
+
+.vertical-menu {
+    width: 350px;
+    border: 1px solid  #e5e5e5;
+    border-collapse: collapse;
+  }
+  
+  .vertical-menu a {
+    background-color: rgba(131,199,131,1 99%);
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #343A40;
+    color: white;
+  }
+
+  
