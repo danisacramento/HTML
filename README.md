@@ -1,5 +1,5 @@
 # HTML
-Estudos de HTML - Projeto de blog feito durante o curso de Desenvolvedor Júnior da Generation Brasil ( https://brazil.generation.org/programs/desenvolvedor-junior).
+Estudos de HTML - projeto de blog feito durante o curso de Desenvolvedor Júnior da Generation Brasil ( https://brazil.generation.org/programs/desenvolvedor-junior).
 
 •	Na pasta “oficial HTML -criação de blog - Copia” está a primeira tentativa de criar um blog;
 
